@@ -1,0 +1,136 @@
+{
+    "inputs":[
+       {
+          "text":"password",
+          "label":"Credentials"
+       },
+       {
+          "text":"I can´t access to ",
+          "label":"Credentials"
+       },
+       {
+          "text":"screen",
+          "label":"Hardware"
+       },
+       {
+          "text":"RAM",
+          "label":"Hardware"
+       },
+       {
+          "text":"computer",
+          "label":"Hardware"
+       },
+       {
+          "text":"hard drive",
+          "label":"Hardware"
+       },
+       {
+          "text":"keyboard",
+          "label":"Hardware"
+       },
+       {
+          "text":"mouse",
+          "label":"Hardware"
+       },
+       {
+          "text":"webcam",
+          "label":"Hardware"
+       },
+       {
+          "text":"ventilation",
+          "label":"Hardware"
+       },
+       {
+          "text":"base plate",
+          "label":"Hardware"
+       },
+       {
+          "text":"graphic card",
+          "label":"Hardware"
+       },
+       {
+          "text":"ssd",
+          "label":"Hardware"
+       },
+       {
+          "text":"processor",
+          "label":"Hardware"
+       },
+       {
+          "text":"battery",
+          "label":"Hardware"
+       },
+       {
+          "text":"How to install",
+          "label":"Installation"
+       },
+       {
+          "text":"How to install",
+          "label":"Installation"
+       },
+       {
+          "text":"How to make ",
+          "label":"Installation"
+       },
+       {
+          "text":"has expired",
+          "label":"License"
+       },
+       {
+          "text":"hasn´t license",
+          "label":"License"
+       },
+       {
+          "text":"license",
+          "label":"License"
+       },
+       {
+          "text":"optimized",
+          "label":"Optimization"
+       },
+       {
+          "text":"is slow",
+          "label":"Optimization"
+       },
+       {
+          "text":"Microsoft Word",
+          "label":"Software"
+       },
+       {
+          "text":"Microsoft Excel",
+          "label":"Software"
+       },
+       {
+          "text":"Microsoft PowerPoint",
+          "label":"Software"
+       },
+       {
+          "text":"gmail",
+          "label":"Software"
+       },
+       {
+          "text":"driver",
+          "label":"Software"
+       },
+       {
+          "text":"app",
+          "label":"Software"
+       },
+       {
+          "text":"aplication",
+          "label":"Software"
+       },
+       {
+          "text":"Microsoft",
+          "label":"Software"
+       },
+       {
+          "text":"google",
+          "label":"Software"
+       },
+       {
+          "text":"processor",
+          "label":"Software"
+       }
+    ]
+ }
