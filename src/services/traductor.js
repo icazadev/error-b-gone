@@ -7,21 +7,27 @@ module.exports = {
     getTraduction: getTraduction
 }
 
-async function getTraduction(textReq){
+async function getTraduction(textReq, language){
     let textResponse;
-    console.log(`--> Text: ${textReq}`)
     let texts = [];
+    let language_code;
     texts.push(textReq);
     const response = await cohere.detectLanguage({texts: texts});
-    textResponse = response.body.results[0].language_code !== 'en' ? await translateText(textReq) : textReq;
-    console.log(`--> Response: ${textResponse}`);
-    return textResponse;
+    language_code = response.body.results[0].language_code;
+    if(language === null)
+        textResponse = language_code !== 'en' ? await translateText(textReq, null) : textReq;
+    else
+        textResponse = await translateText(textReq, language);
+    return {
+        text: textResponse,
+        language: language_code
+    };
 }
 
 
-async function translateText(text) {
+async function translateText(text, language) {
     let en; 
-    await translate.translate(text, {to: 'en'}).then(res => {
+    await translate.translate(text, language === null ? {to: 'en'}: {to: language}).then(res => {
         en = res.text;
     }).catch(err => {
         console.log(text);
