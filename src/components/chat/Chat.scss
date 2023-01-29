@@ -1,0 +1,32 @@
+.form-container {
+    background-color: #262525;
+    border-radius: 5px;
+
+    &__messages {
+        min-height: 90%;
+        color: white;
+    }
+
+    &__input {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        min-height: 10%;
+
+        .input-group {
+
+            input {
+                border-radius: 0 0 0 5px;
+                &:focus {
+                    outline: none;
+                    outline-width: 0;
+                    box-shadow: none;
+                }
+            }
+
+            button {
+                border-radius: 0 0 5px 0;
+            }
+        }
+    }
+}
